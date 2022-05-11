@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Unity</title>
+  </head>
+  <body>
+    <!-- Static tick  mark -->
+    <button class="static_tick_mark">
+      <img src="./images/shield-svgrepo-com.svg" />
+    </button>
+    <!-- Nav bar -->
+    <nav>
+      <div class="container nav_container">
+        <div class="nav-logo-container">
+                  <a class="nav-logo" href="#"><img src="./images/logo.svg" alt="" /></a>
+                  <div>
+                          <a class="ico_btn" href="#" id="menu_dot"
+          ><i class="bi bi-three-dots"></i
+        ></a>
+        </div>
+        </div>
+
+        <ul class="nav_menu">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Learning</a></li>
+          <li class="navbar_more"><a href="#">More</a></li>
+          <li><a href="#">Support & Services</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Developer tools</a></li>
+        </ul>
+
+        <button id="get-started-btn">Get Started</button>
+        <div class="nav-icons">
+        <a class="ico_btn" href="#"><i class="bi bi-search"></i></a>
+        <a class="ico_btn" href="#"><i class="bi bi-grid-fill"></i></a>
+        <a class="ico_btn" href="#"><i class="bi bi-person-circle"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header
+      style="
+        background-image: url(./images/Unity-2021-Overview-LP-LTS-1920x1080_0.jpg);
+      "
+    >
+      <div class="container header_container">
+        <div class="header_disc">
+          <h1>Unity 2021 LTS is here</h1>
+          <p>
+            Quality first. Endless possibilities. Unlock powerful improvements
+            to help you realize your creative ambitions.
+          </p>
+        </div>
+        <div class="header_btn">
+          <button id="learn_more_btn">Learn more</button>
+          <button id="get_started_btn">Get started</button>
+        </div>
+      </div>
+    </header>
+    <!-- categories -->
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories_cards">
+          <h3>Games</h3>
+          <p>Everything you need to create and operate your games.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="categories_cards">
+          <h3>Automotive, Transportation & Manufacturing</h3>
+          <p>
+            Gain a competitive edge with real-time 3D in a rapidly evolving
+            industry landscape.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="categories_cards">
+          <h3>Film, Animation & Cinematics</h3>
+          <p>
+            Unprecedented artistic freedom and faster production for film and
+            animation projects.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="categories_cards">
+          <h3>Architecture, Engineering & Construction</h3>
+          <p>
+            Create immersive 3D experiences for real-world applications at
+            scale.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ribbon -->
+    <div class="container ribbon_container">
+      <div class="ribbon_element">
+        <p>
+          <i class="bi bi-check-circle-fill"></i><span> Royalty-free</span>— you
+          keep everything you earn
+        </p>
+      </div>
+      <div class="ribbon_element">
+        <p>
+          <i class="bi bi-share-fill"></i
+          ><span> 20+ different platforms </span>run Unity creations
+        </p>
+      </div>
+      <div class="ribbon_element">
+        <p>
+          <i class="bi bi-people-fill"></i> Trusted by<span>
+            1.5 million active creators </span
+          >monthly
+        </p>
+      </div>
+    </div>
+
+    <!-- featured products -->
+
+    <div class="container featured_products_container">
+      <h1>Featured products</h1>
+      <div class="card_container">
+        <div class="featured_card">
+          <a href="#"><img src="./images/unity-pro-card.jpeg.jpg" alt="" /></a>
+          <div>
+            <h3>Unity Pro</h3>
+            <p>
+              The complete solution for professionals to create and operate
+              real-time 3D experiences. Put the power of an entire ecosystem of
+              tools, support, and community in your team’s hands to achieve
+              better results, faster.
+            </p>
+            <h5><a href="#">Subscribe</a><a href="#">Learn more</a></h5>
+          </div>
+        </div>
+        <div class="featured_card">
+          <a href=""><img src="./images/1 (1).jpg" alt="" /></a>
+          <div>
+            <h3>Unity Gaming Services</h3>
+            <p>
+              Wherever you are in your development lifecycle, Unity Gaming
+              Services takes your game to the next level. Bring your vision to
+              life and leverage our tools to run your online game, grow revenue,
+              discover player insights, and more.
+            </p>
+            <h5><a href="#">Get started</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Everything you need -->
+    <div class="container your_needs_container">
+      <div class="column_card">
+        <h1>Everything you need to succeed</h1>
+        <p>
+          Unity is so much more than the world’s best real-time development
+          platform – it’s also a robust ecosystem designed to enable your
+          success. Join our dynamic community of creators so you can tap into
+          what you need to achieve your vision.
+        </p>
+        <button id="read_our_blog_btn">Read our blog</button>
+      </div>
+      <div class="row_card">
+        <div class="row_card_card">
+          <h3>Unity Learn</h3>
+          <p>
+            Advance your Unity skills with live sessions and over 750 hours of
+            on-demand learning content designed for creators at every skill
+            level.
+          </p>
+          <h5><a href="#">Start learning</a></h5>
+        </div>
+        <div class="row_card_card">
+          <h3>Asset Store</h3>
+          <p>
+            Jump-start your project and get to the finish line faster with an
+            ever-growing catalog of free and paid assets and tools.
+          </p>
+          <h5><a href="#">Learn more</a></h5>
+        </div>
+        <div class="row_card_card">
+          <h3>Documentation</h3>
+          <p>
+            Get up to speed on Unity features and workflows, and find out how to
+            create and use scripts, with our thorough, well-organized
+            documentation.
+          </p>
+          <h5><a href="#">Learn more</a></h5>
+        </div>
+        <div class="row_card_card">
+          <h3>Gaming Services</h3>
+          <p>
+            Everything you need to build, manage and grow your game. Take your
+            game to the next level with battle-tested services for every stage
+            of the development lifecycle.
+          </p>
+          <h5><a href="#">Learn more</a></h5>
+        </div>
+      </div>
+    </div>
+    <!-- latest page -->
+    <div class="container latest_container">
+      <h1>Latest from Unity</h1>
+      <div class="latest_cards">
+        <div class="latest_left_container">
+          <div class="img_card">
+            <img src="./images/unityxweta-promo (1).jpg" alt="" />
+            <div class="texts">
+              <h5>Welcome Weta Digital!</h5>
+              <p>
+                Bringing highly sophisticated VFX tools to millions of creators
+                around the world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="latest_right_container">
+          <div class="img_card">
+            <img src="./images/mm-homepage-banner-810x455.jpg" alt="" />
+            <div class="texts">
+              <h5>More momentum</h5>
+              <p>
+                Get more momentum on your next project with Unity’s full suite
+                of DevOps tools.
+              </p>
+            </div>
+          </div>
+          <div class="img_card">
+            <img src="./images/Join-Educators-Live-1920x1000_0.jpg" alt="" />
+            <div class="texts">
+              <h5>Resources for Teaching Unity</h5>
+              <p>
+                Get free resources and support for educators and schools
+                impacted by COVID-19.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Unity new proprities -->
+
+    <div class="container unity_proprities">
+      <a href="#">
+        <div class="prop_card">
+          <img
+            src="./images/Unity-Perception-HeroHeader-1920x1000.jpg"
+            alt=""
+          />
+          <div class="text">
+            <h3>Unity Computer Vision</h3>
+            <p>
+              Get perfectly labeled, high-quality data for computer vision
+              training at a fraction of the cost.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="prop_card">
+          <img src="./images/AssetStoreThumbnail.jpg" alt="" />
+          <div class="text">
+            <h3>Unity and LEGO partner to flex their ninja skill</h3>
+            <p>
+              Level up your Unity skills for the upcoming LEGO® Ideas contest
+              featuring LEGO NINJAGO®
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="prop_card">
+          <img src="./images/hero_banner_nologo.jpg" alt="" />
+          <div class="text">
+            <h3>New 2D demo available, Dragon Crashers</h3>
+            <p>
+              Explore the next level of 2D graphics brought to you by our native
+              suite of 2D tools and technology.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- made with unity -->
+    <div class="container made_with_unity">
+      <img
+        src="./images/pftg-showcase-1920x1080@1x.jpg"
+        alt=""
+        class="mySlides fade"
+      />
+      <img
+        src="./images/pharos-ar-made-with-unity.jpg"
+        alt=""
+        class="mySlides fade"
+      />
+      <img
+        src="./images/auto-showcase-1920x1080@1x.jpg"
+        alt=""
+        class="mySlides fade"
+      />
+      <div class="container_condent">
+        <div class="text_switch">
+          <div>
+            <h1>Made with Unity</h1>
+            <p>
+              Discover inspiring stories from creators who chose Unity to bring
+              their projects to life
+            </p>
+            <button class="more_stories">More stories</button>
+          </div>
+          <div></div>
+        </div>
+        <div class="changing_cards">
+          <div class="dot" onmouseenter="currentSlide(1)">
+            <h4>Praey for the Gods</h4>
+            <p>by No Matter Studios</p>
+            <p class="onhover">
+              A giant of a winter survival game from a small, highly talented
+              studio.
+            </p>
+            <a class="onhover" href="#"> Learn more </a>
+          </div>
+          <div class="dot" onmouseenter="currentSlide(2)">
+            <h4>Pharos AR</h4>
+            <p>by Childish Gambino, Wolf + Rothstein, and MediaMonks</p>
+            <p class="onhover">
+              Enter Childish Gambino's mystical world in the world's first
+              multi-platform, multi-player AR music experience.
+            </p>
+            <a class="onhover" href="#"> Learn more </a>
+          </div>
+          <div class="dot" onmouseenter="currentSlide(3)">
+            <h4>How to create a configurable car in Unity HDRP</h4>
+            <p>by Edward Martin</p>
+            <p class="onhover">
+              An inside look at real-time rendering for automotive.
+            </p>
+            <a class="onhover" href="#"> Learn more </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hireing -->
+    <div class="container together_container">
+      <div class="together_card">
+        <img src="./images/recruiting-10_12-1020x574@2x .jpg" alt="" />
+      </div>
+      <div class="together_card">
+        <h1>Together, we empower real-time creativity around the world</h1>
+        <p>
+          Join the global team behind the world’s most powerful real-time
+          development platform.
+        </p>
+        <button>We're hiring</button>
+      </div>
+    </div>
+
+    <!-- linked conpanies -->
+    <div class="container company_link">
+      <h1>Deliver incredible possibilities</h1>
+      <p>
+        Create once, deploy across 25+ leading platforms and technologies to
+        reach the largest possible audience.
+      </p>
+      <div class="company_links_all">
+        <div class="company_link_four">
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/ios-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/android_1.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/windows.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/universalwindowsplatform.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/linux.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/webgl.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="company_link_four">
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/ps4-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/sony-ps5-sponsor-360x192@1x.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/xboxone.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="images/xbox-series-x-s-sponsor-360x192@1x.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/oculus-rift-logo.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/androidtv_0.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="company_link_four">
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/tvos.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/nintendoswitch.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/arcore_0.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/stadia.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="company_link_two">
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/microsofthololens.png" alt="" />
+              </a>
+            </div>
+            <div class="company_link">
+              <a href="#">
+              <img src="./images/magic-leap.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Big dreams -->
+    <div class="container big_dream_container">
+      <img src="./images/enterprise-callout-2460x1200@2x.jpg" alt="">
+      <div class="big_dream_inn">
+        <h1>Solutions for big teams to achieve big dreams</h1>
+        <p>Our enterprise-level solutions provide large teams and organizations in every industry with everything they need to build awesome real-time 3D projects.</p>
+        <button>Contact us</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer_container">
+      <div class="container">
+      <div class="footer_top">
+        <div class="footer_top_left">
+          <h2>Language</h2>
+          <div class="lang">
+            <div class="sec">
+              <a href="#"><h3>English</h3></a>
+              <a href="#"><h3>中文</h3></a>
+              <a href="#"><h3>Deutsch</h3></a>
+            </div>
+            <div class="sec">
+              <a href="#"><h3>Español</h3></a>
+              <a href="#"><h3>日本語</h3></a>
+              <a href="#"><h3>Русский</h3></a>
+            </div>
+            <div class="sec">
+              <a href="#"><h3>Français</h3></a>
+              <a href="#"><h3>한국어</h3></a>
+              <a href="#"><h3>Português</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_top_right">
+          <h2>Social</h2>
+          <div class="social_links">
+            <a href="#">
+            <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#">
+            <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#">
+            <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#">
+            <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#">
+            <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_middle">
+        <div class="footer_middle_block">
+          <div class="footer_middle_block_inn">
+            <h2>Purchase</h2>
+            <a href="#"><h3>Products</h3></a>
+            <a href="#"><h3>Unity Ads</h3></a>
+            <a href="#"><h3>Subscription</h3></a>
+            <a href="#"><h3>Asset Store</h3></a>
+            <a href="#"><h3>Resellers</h3></a>
+          </div>
+          <div class="footer_middle_block_inn">
+            <h2>Education</h2>
+            <a href="#"><h3>Students</h3></a>
+            <a href="#"><h3>Educators</h3></a>
+            <a href="#"><h3>Certification</h3></a>
+            <a href="#"><h3>Learn</h3></a>
+            <a href="#"><h3>Center of Excellence</h3></a>
+          </div>
+          <div class="footer_middle_block_inn">
+            <h2>Download</h2>
+            <a href="#"><h3>Get Unity</h3></a>
+            <a href="#"><h3>Download Archive</h3></a>
+            <a href="#"><h3>Beta Program</h3></a>
+          </div>
+        </div>
+        <div class="footer_middle_block">
+          <div class="footer_middle_block_inn">
+            <h2>Unity Labs</h2>
+            <a href="#"><h3>Labs</h3></a>
+            <a href="#"><h3>Publications</h3></a>
+          </div>
+          <div class="footer_middle_block_inn">
+            <h2>Resources</h2>
+            <a href="#"><h3>Learn platform</h3></a>
+            <a href="#"><h3>Community</h3></a>
+            <a href="#"><h3>Documentation</h3></a>
+            <a href="#"><h3>Unity QA</h3></a>
+            <a href="#"><h3>FAQ</h3></a>
+            <a href="#"><h3>Services Status</h3></a>
+            <a href="#"><h3>Case Studies</h3></a>
+            <a href="#"><h3>Made with Unity</h3></a>
+          </div>
+          <div class="footer_middle_block_inn">
+            <h2>Unity</h2>
+            <a href="#"><h3>Our Company</h3></a>
+            <a href="#"><h3>Brand</h3></a>
+            <a href="#"><h3>Newsletter</h3></a>
+            <a href="#"><h3>Blog</h3></a>
+            <a href="#"><h3>Events</h3></a>
+            <a href="#"><h3>Careers</h3></a>
+            <a href="#"><h3>Help</h3></a>
+            <a href="#"><h3>Press</h3></a>
+            <a href="#"><h3>Partners</h3></a>
+            <a href="#"><h3>Investors</h3></a>
+            <a href="#"><h3>Affiliates</h3></a>
+            <a href="#"><h3>Security</h3></a>
+            <a href="#"><h3>Social Impact</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="f_b_box1">
+        <h2>Copyright © 2022 Unity Technologies</h2>
+        <div class="links">
+          <a href="#"><h5>Legal</h5></a>
+          <a href="#"><h5>Privacy Policy</h5></a>
+          <a href="#"><h5>Cookies</h5></a>
+          <a href="#"><h5>Do Not Sell My Personal Information</h5></a>
+          <a href="#"><h5>Cookies Settings</h5></a>
+        </div>
+        <p>"Unity", Unity logos, and other Unity trademarks are trademarks or registered trademarks of Unity Technologies or its affiliates in the U.S. and elsewhere (more info here). Other names or brands are trademarks of their respective owners.</p>
+      </div>
+      <div class="f_b_box2"></div>
+      </div>
+    </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="./main.js"></script>
+  </body>
+</html>
